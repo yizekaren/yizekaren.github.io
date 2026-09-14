@@ -28,7 +28,7 @@ GitHub Pages publishes the `main` branch from `/ (root)`. `.nojekyll` disables J
 
 The domain registration remains at Wix and needs its separate renewal. DNS routes `www` to `yizekaren.github.io`, with the apex A records set to `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, and `185.199.111.153`. Retain the GitHub ownership verification TXT record and the existing nameservers.
 
-HTTPS is configured through **Settings → Pages → Enforce HTTPS** once GitHub finishes issuing the custom-domain certificate.
+The custom-domain TLS certificate is issued, and **Enforce HTTPS** is enabled. HTTP requests redirect to HTTPS, and `yizezhao.com` redirects to `www.yizezhao.com`.
 
 ## Local preview
 
