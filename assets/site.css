@@ -1,0 +1,276 @@
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(dm-sans-400.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(dm-sans-500.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(dm-sans-600.ttf) format('truetype');
+}
+html{scroll-behavior:auto}body{margin:0}button,a{-webkit-tap-highlight-color:transparent}
+.skip-link{position:absolute;top:-80px;left:20px;z-index:1000;background:#fff;color:#292c34;padding:12px 18px}.skip-link:focus{top:10px}
+:focus-visible{outline:2px solid #4b5e88;outline-offset:5px}
+
+#zhao-people-scope{--z-paper:light-dark(#fff,#191c21);--z-ink:light-dark(#292c34,#f0f0f3);--z-muted:light-dark(#646977,#b6bbc5);--z-link:light-dark(#4b5e88,#aec2eb);--z-rule:light-dark(#e1e4e9,#363c47);--z-soft:light-dark(#f6f7fa,#222730);--z-motion:light-dark(#7483b0,#b6c3ed);--z-warm:light-dark(#c88a75,#e3bba7);--z-art:.72;background:var(--z-paper);color:var(--z-ink);font:15px/1.75 'DM Sans',Arial,sans-serif;container-type:inline-size;overflow-wrap:break-word}
+#zhao-people-scope *{box-sizing:border-box}
+#zhao-people-scope [hidden]{display:none!important}
+#zhao-people-scope h1,#zhao-people-scope h2,#zhao-people-scope h3,#zhao-people-scope h4,#zhao-people-scope p,#zhao-people-scope figure{margin:0;color:inherit}
+#zhao-people-scope a{color:var(--z-link);text-decoration:none;text-underline-offset:4px}
+#zhao-people-scope a:hover{text-decoration:underline}
+#zhao-people-scope button{font:inherit;cursor:pointer}
+#zhao-people-scope .z-shell{max-width:1080px;margin:auto;padding:0 48px}
+#zhao-people-scope .z-nav{display:flex;gap:26px;align-items:center;flex-wrap:wrap;border-bottom:1px solid var(--z-rule);padding:20px 0 14px}
+#zhao-people-scope .z-nav button,#zhao-people-scope .z-nav a{font-size:12px;background:none;color:var(--z-muted);border:0;padding:6px 0;position:relative}
+#zhao-people-scope .z-nav [aria-current=page]{color:var(--z-ink)}
+#zhao-people-scope .z-nav [aria-current=page]::after{content:'';position:absolute;bottom:-15px;left:0;right:0;height:2px;background:var(--z-link)}
+#zhao-people-scope .z-nav a:last-child{margin-left:auto;color:var(--z-link)}
+#zhao-people-scope .z-hero{position:relative;isolation:isolate;padding:46px 0 35px}
+#zhao-people-scope .z-atmosphere{position:absolute;z-index:-1;inset:0 -48px;pointer-events:none;overflow:hidden;opacity:var(--z-art);mask-image:linear-gradient(90deg,transparent 15%,#000 65%),linear-gradient(#000 85%,transparent 100%);mask-composite:intersect}
+#zhao-people-scope .z-atmosphere img{width:100%;height:100%;object-fit:cover;object-position:right center;display:block}
+#zhao-people-scope .z-atmosphere canvas{position:absolute;inset:0;width:100%;height:100%;color:var(--z-motion)}
+#zhao-people-scope .z-hero-content{position:relative}
+#zhao-people-scope .z-identity{display:flex;gap:23px;align-items:center;margin-bottom:25px}
+#zhao-people-scope .z-portrait{display:block;width:88px;height:115px;object-fit:cover;border-radius:3px}
+#zhao-people-scope h1{font-size:46px;line-height:1.1;letter-spacing:-1.8px;font-weight:500}
+#zhao-people-scope h1 span{font-size:17px;letter-spacing:0;font-weight:400;margin-left:5px;color:var(--z-muted)}
+#zhao-people-scope .z-position{font-size:15px;margin-top:11px}
+#zhao-people-scope .z-affiliation{color:var(--z-muted);font-size:12px;margin-top:3px;line-height:1.65}
+#zhao-people-scope .z-bio{max-width:610px;text-wrap:pretty}
+#zhao-people-scope .z-bio p+p{margin-top:13px}
+#zhao-people-scope .z-bio p{background:linear-gradient(90deg,var(--z-paper) 0%,transparent 100%)}
+#zhao-people-scope .z-links{display:flex;gap:9px 21px;flex-wrap:wrap;font-size:12px;margin-top:21px}
+#zhao-people-scope .z-motion-button{position:absolute;right:0;bottom:2px;background:var(--z-paper);color:var(--z-muted);font-size:11px;border:1px solid var(--z-rule);border-radius:20px;padding:5px 11px}
+#zhao-people-scope .z-section{border-top:1px solid var(--z-rule);padding:28px 0 31px;display:grid;grid-template-columns:155px 1fr;gap:28px}
+#zhao-people-scope h2{font-size:19px;line-height:1.4;font-weight:500;letter-spacing:-.35px}
+#zhao-people-scope h3{font-size:16px;line-height:1.5;font-weight:500;letter-spacing:-.15px}
+#zhao-people-scope h4{font-size:13px;font-weight:500}
+#zhao-people-scope .z-section-label a{display:inline-block;font-size:12px;margin-top:9px}
+#zhao-people-scope .z-topics{display:grid;gap:23px}
+#zhao-people-scope .z-topic{display:grid;grid-template-columns:112px 1fr;gap:21px;align-items:center}
+#zhao-people-scope .z-topic img{width:112px;height:74px;object-fit:contain;display:block;background:#fff;padding:3px}
+#zhao-people-scope .z-topic p{font-size:13px;color:var(--z-muted);margin-top:4px}
+#zhao-people-scope .z-topic small{font-size:11px;color:var(--z-muted);display:block;margin-top:5px}
+#zhao-people-scope .z-honors{list-style:none;margin:0;padding:0;display:grid;gap:8px;font-size:13px}
+#zhao-people-scope .z-honors span{color:var(--z-muted)}
+#zhao-people-scope .z-honors small{font-size:12px;color:var(--z-muted);display:block;margin-top:12px}
+#zhao-people-scope .z-group-note p{font-size:14px}
+#zhao-people-scope .z-group-note p+p{margin-top:12px}
+#zhao-people-scope .z-group-note .z-placement{font-size:12px;color:var(--z-muted)}
+#zhao-people-scope .z-footer{border-top:1px solid var(--z-rule);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:19px 0 25px;font-size:11px;color:var(--z-muted)}
+#zhao-people-scope .z-page{padding-top:37px}
+#zhao-people-scope .z-page-header{margin-bottom:27px;display:flex;justify-content:space-between;gap:20px;align-items:start}
+#zhao-people-scope .z-page .z-page-title{font-size:32px;letter-spacing:-.9px;margin-bottom:11px}
+#zhao-people-scope .z-page-intro{max-width:720px;color:var(--z-muted);font-size:14px}
+#zhao-people-scope .z-page-byline{font-size:12px;color:var(--z-muted);white-space:nowrap;padding-top:10px}
+#zhao-people-scope .z-jump{display:flex;gap:10px 24px;flex-wrap:wrap;font-size:12px;padding:0 0 25px}
+#zhao-people-scope .z-research{border-top:1px solid var(--z-rule);padding:31px 0 37px;scroll-margin-top:20px}
+#zhao-people-scope .z-theme-heading{display:flex;gap:19px;align-items:baseline;margin-bottom:13px}
+#zhao-people-scope .z-number{font-size:12px;color:var(--z-muted)}
+#zhao-people-scope .z-research h3{font-size:24px;letter-spacing:-.6px}
+#zhao-people-scope .z-question{font-size:17px;line-height:1.6;margin-bottom:10px;color:var(--z-link)}
+#zhao-people-scope .z-research-copy{font-size:14px;color:var(--z-muted);max-width:790px}
+#zhao-people-scope .z-paper-figure{margin:24px 0 19px}
+#zhao-people-scope .z-image-button{display:block;border:1px solid var(--z-rule);padding:16px;background:#fff;width:100%;cursor:zoom-in;border-radius:2px}
+#zhao-people-scope .z-image-button img{width:82%;max-height:300px;object-fit:contain;display:block;margin:auto}
+#zhao-people-scope .z-paper-figure.is-expanded .z-image-button{cursor:zoom-out}
+#zhao-people-scope .z-paper-figure.is-expanded .z-image-button img{width:100%;max-height:none}
+#zhao-people-scope figcaption{font-size:11px;color:var(--z-muted);margin-top:9px;line-height:1.7}
+#zhao-people-scope figcaption strong{font-weight:500;color:var(--z-ink)}
+#zhao-people-scope .z-figure-action{display:flex;gap:16px;justify-content:space-between;align-items:baseline}
+#zhao-people-scope .z-figure-action button{flex-shrink:0;border:0;background:none;color:var(--z-link);font-size:11px;padding:3px 0}
+#zhao-people-scope .z-key-label{font-size:11px;font-weight:500;letter-spacing:.09em;text-transform:uppercase;color:var(--z-muted);margin:22px 0 10px}
+#zhao-people-scope .z-papers{list-style:none;padding:0;margin:0;display:grid;gap:13px}
+#zhao-people-scope .z-papers li{display:grid;grid-template-columns:39px 1fr;gap:14px}
+#zhao-people-scope .z-year{font-size:11px;color:var(--z-muted);padding-top:3px}
+#zhao-people-scope .z-paper-title{font-size:14px;font-weight:500;color:var(--z-ink)}
+#zhao-people-scope .z-paper-meta{font-size:12px;color:var(--z-muted);margin-top:1px}
+#zhao-people-scope .z-paper-meta a{margin-left:13px;white-space:nowrap}
+#zhao-people-scope .z-research-end{border-top:1px solid var(--z-rule);padding:25px 0 30px;display:flex;gap:15px 30px;flex-wrap:wrap;font-size:13px}
+#zhao-people-scope .z-roster{display:grid;grid-template-columns:1fr 1fr;gap:23px 30px}
+#zhao-people-scope .z-person p{font-size:12px;color:var(--z-muted);margin-top:5px}
+#zhao-people-scope .z-person h3{font-size:15px}
+#zhao-people-scope .z-alumni{display:grid;gap:19px}
+#zhao-people-scope .z-alumni>div{display:grid;grid-template-columns:150px 1fr;gap:15px;font-size:14px}
+#zhao-people-scope .z-alumni p{font-size:12px;color:var(--z-muted)}
+#zhao-people-scope .z-note{font-size:12px;color:var(--z-muted);padding:14px 0 25px}
+#zhao-people-scope .z-software-row{border-top:1px solid var(--z-rule);padding:23px 0;display:grid;grid-template-columns:180px 1fr;gap:25px}
+#zhao-people-scope .z-software-row p{font-size:14px;color:var(--z-muted)}
+#zhao-people-scope .z-software-row small{display:block;font-size:11px;color:var(--z-muted);margin-top:4px}
+#zhao-people-scope .z-software-row .z-links{margin-top:10px}
+#zhao-people-scope .z-invitation{padding:25px 0 30px;border-top:1px solid var(--z-rule);display:grid;grid-template-columns:175px 1fr;gap:28px}
+#zhao-people-scope .z-invitation p{font-size:14px;max-width:610px}
+#zhao-people-scope .z-invitation p+p{margin-top:12px;color:var(--z-muted)}
+#zhao-people-scope .z-contact-line{background:var(--z-soft);padding:21px 25px;margin:0 0 32px;font-size:14px}
+#zhao-people-scope .z-contact-line p{font-size:12px;color:var(--z-muted);margin-top:5px}
+@container(max-width:800px){#zhao-people-scope .z-shell{padding:0 30px}#zhao-people-scope .z-nav{gap:13px 23px}#zhao-people-scope .z-nav a:last-child{margin-left:0}#zhao-people-scope .z-atmosphere{inset:0 -30px;opacity:calc(var(--z-art)*.62)}#zhao-people-scope .z-bio{max-width:540px}#zhao-people-scope .z-section{grid-template-columns:133px 1fr;gap:22px}#zhao-people-scope .z-topic{grid-template-columns:90px 1fr;gap:16px}#zhao-people-scope .z-topic img{width:90px;height:69px}#zhao-people-scope .z-page-byline{display:none}#zhao-people-scope .z-alumni>div{grid-template-columns:1fr;gap:2px}}
+@container(max-width:600px){#zhao-people-scope .z-atmosphere img{object-fit:contain;object-position:right top}#zhao-people-scope .z-shell{padding:0 22px}#zhao-people-scope .z-nav{gap:7px 23px;padding-top:14px}#zhao-people-scope .z-nav button,#zhao-people-scope .z-nav a{padding:8px 0}#zhao-people-scope .z-nav [aria-current=page]::after{bottom:2px}#zhao-people-scope .z-hero{padding:29px 0 50px}#zhao-people-scope .z-atmosphere{inset:0 -22px;opacity:calc(var(--z-art)*.42);mask-image:linear-gradient(90deg,transparent,#000 80%),linear-gradient(#000 80%,transparent);mask-composite:intersect}#zhao-people-scope .z-identity{gap:17px;margin-bottom:24px}#zhao-people-scope .z-portrait{width:67px;height:90px}#zhao-people-scope h1{font-size:34px;letter-spacing:-1.2px}#zhao-people-scope h1 span{font-size:14px;margin-left:2px}#zhao-people-scope .z-position{font-size:12px;line-height:1.6;margin-top:8px}#zhao-people-scope .z-affiliation{font-size:11px}#zhao-people-scope .z-bio p{font-size:14px}#zhao-people-scope .z-links{gap:8px 18px}#zhao-people-scope .z-section{grid-template-columns:1fr;gap:19px;padding:25px 0}#zhao-people-scope .z-section-label{display:flex;justify-content:space-between;align-items:baseline;gap:15px}#zhao-people-scope .z-section-label a{margin:0}#zhao-people-scope .z-topic{grid-template-columns:78px 1fr;gap:15px}#zhao-people-scope .z-topic img{width:78px;height:73px}#zhao-people-scope .z-topic h3{font-size:15px}#zhao-people-scope .z-topic small{display:none}#zhao-people-scope .z-topic p{font-size:12px}#zhao-people-scope .z-page{padding-top:28px}#zhao-people-scope .z-page .z-page-title{font-size:28px}#zhao-people-scope .z-theme-heading{gap:13px}#zhao-people-scope .z-research h3{font-size:22px}#zhao-people-scope .z-question{font-size:16px}#zhao-people-scope .z-image-button{padding:7px}#zhao-people-scope .z-figure-action{display:block}#zhao-people-scope .z-figure-action button{padding:8px 0}#zhao-people-scope .z-research{padding:27px 0}#zhao-people-scope .z-papers li{grid-template-columns:32px 1fr;gap:9px}#zhao-people-scope .z-paper-title{font-size:13px}#zhao-people-scope .z-paper-meta a{margin-left:8px}#zhao-people-scope .z-roster{grid-template-columns:1fr}#zhao-people-scope .z-software-row,#zhao-people-scope .z-invitation{grid-template-columns:1fr;gap:9px}#zhao-people-scope .z-contact-line{padding:18px}#zhao-people-scope .z-motion-button{bottom:14px}}
+@media(prefers-color-scheme:dark){#zhao-people-scope .z-atmosphere img{filter:invert(1) hue-rotate(180deg);mix-blend-mode:screen}}
+@media(prefers-reduced-motion:reduce){#zhao-people-scope *{scroll-behavior:auto!important;transition:none!important}}
+#zhao-people-scope .z-bio{max-width:690px}
+#zhao-people-scope .z-bio strong{font-weight:500}
+#zhao-people-scope .z-personal-copy{font-size:14px;max-width:690px}
+#zhao-people-scope .z-personal-copy p+p{margin-top:14px}
+#zhao-people-scope .z-dated-honors{gap:17px}
+#zhao-people-scope .z-dated-honors li{display:grid;grid-template-columns:45px 1fr;gap:10px}
+#zhao-people-scope .z-dated-honors small{margin-top:0;font-size:12px}
+#zhao-people-scope .z-eyebrow{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--z-muted);margin-bottom:9px}
+#zhao-people-scope .z-research-index{display:grid;grid-template-columns:1fr 1fr;gap:0 35px;padding:0 0 30px}
+#zhao-people-scope .z-research-index a{display:flex;gap:13px;padding:13px 0;border-bottom:1px solid var(--z-rule);font-size:13px}
+#zhao-people-scope .z-research-index span{color:var(--z-muted);font-size:11px}
+#zhao-people-scope .z-research-copy p+p{margin-top:12px}
+#zhao-people-scope .z-research{padding-top:35px;padding-bottom:40px}
+#zhao-people-scope .z-research .z-question{margin-bottom:12px;color:var(--z-link)}
+#zhao-people-scope .z-current-work{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin:26px 0 23px}
+#zhao-people-scope .z-current-work>div{border-top:2px solid var(--z-rule);padding-top:12px}
+#zhao-people-scope .z-current-work h4{font-size:15px;margin:5px 0 7px}
+#zhao-people-scope .z-current-work p{font-size:13px;line-height:1.7;color:var(--z-muted)}
+#zhao-people-scope .z-current-work a{font-size:12px;display:inline-block;margin-top:9px}
+#zhao-people-scope .z-status{font-size:11px;color:var(--z-link)}
+#zhao-people-scope .z-papers li{grid-template-columns:55px 1fr;gap:13px}
+#zhao-people-scope .z-image-button img{width:92%;max-height:330px}
+#zhao-people-scope .z-concept{margin:28px 0 24px}
+#zhao-people-scope .z-concept>div{background:var(--z-soft);padding:25px 25px 21px;border-radius:3px}
+#zhao-people-scope .z-diagram-label{display:block;font-size:11px;line-height:1.55;letter-spacing:.02em;font-weight:500;color:var(--z-muted);margin-bottom:17px}
+#zhao-people-scope .z-course-schematic{display:grid;grid-template-columns:1.15fr 1.15fr .7fr;gap:27px;align-items:center}
+#zhao-people-scope .z-evidence-lane{display:grid;grid-template-columns:64px repeat(5,1fr);gap:8px;align-items:center;margin-bottom:13px;font-size:11px}
+#zhao-people-scope .z-evidence-lane i{display:block;width:7px;height:7px;border-radius:2px;background:var(--z-link)}
+#zhao-people-scope .z-evidence-lane i.is-missing{background:transparent;border:1px solid var(--z-rule)}
+#zhao-people-scope .z-concept p{font-size:12px;line-height:1.65}
+#zhao-people-scope .z-course-input>p,#zhao-people-scope .z-course-curves>p,#zhao-people-scope .z-science-track>p{font-size:11px;color:var(--z-muted);margin-top:16px}
+#zhao-people-scope .z-course-curves svg{display:block;width:100%;height:auto;overflow:visible;color:var(--z-link);fill:currentColor}
+#zhao-people-scope .z-course-curves .z-band{fill:currentColor;opacity:.13}
+#zhao-people-scope .z-course-curves .z-curve{fill:none;stroke:currentColor;stroke-width:2.2}
+#zhao-people-scope .z-course-curves .z-alt-curve{fill:none;stroke:var(--z-warm);stroke-width:1.7;stroke-dasharray:4 4}
+#zhao-people-scope .z-course-output{border-left:1px solid var(--z-rule);padding-left:22px}
+#zhao-people-scope .z-course-output p{line-height:2.1}
+#zhao-people-scope .z-course-output p span{display:block}
+#zhao-people-scope .z-assessment-schematic{display:grid;grid-template-columns:1fr 1fr 1fr;gap:32px;align-items:start}
+#zhao-people-scope .z-assessment-schematic>div>p{margin:8px 0}
+#zhao-people-scope .z-evidence-center{border-left:1px solid var(--z-rule);border-right:1px solid var(--z-rule);padding:0 23px}
+#zhao-people-scope .z-records{height:53px;display:flex;gap:7px;align-items:center;margin:12px 0 16px}
+#zhao-people-scope .z-records i{height:35%;width:12px;background:var(--z-link);opacity:.28}
+#zhao-people-scope .z-records i:nth-child(3n){height:65%;opacity:.48}
+#zhao-people-scope .z-records i:nth-child(4n){height:95%;opacity:.7}
+#zhao-people-scope .z-records i:nth-child(2){height:50%}
+#zhao-people-scope .z-records i:nth-child(5){height:80%;opacity:.55}
+#zhao-people-scope .z-decision-rule{width:30px;height:1px;background:var(--z-rule);margin:10px 0}
+#zhao-people-scope .z-science-schematic{display:grid;grid-template-columns:1.3fr 1fr;gap:45px;align-items:start}
+#zhao-people-scope .z-workflow-steps{display:flex;align-items:center;justify-content:space-between;gap:9px;font-size:13px}
+#zhao-people-scope .z-workflow-steps b{font-weight:400;color:var(--z-muted)}
+#zhao-people-scope .z-science-return{height:15px;margin:5px 18px 0;border:1px solid var(--z-rule);border-top:none;border-radius:0 0 8px 8px}
+#zhao-people-scope .z-science-checks{border-left:2px solid var(--z-link);padding-left:23px}
+#zhao-people-scope .z-science-checks p+p{margin-top:6px}
+#zhao-people-scope .z-full-bibliography{margin:0;padding:0 0 0 24px;display:grid;gap:19px;font-size:14px}
+#zhao-people-scope .z-full-bibliography li{padding-left:7px}
+#zhao-people-scope .z-full-bibliography li::marker{font-size:11px;color:var(--z-muted)}
+#zhao-people-scope .z-bib-authors{font-size:12px;color:var(--z-muted);margin-top:3px}
+#zhao-people-scope .z-bib-title{font-weight:500;font-size:14px;line-height:1.65}
+#zhao-people-scope .z-bib-meta{font-size:12px;color:var(--z-muted)}
+#zhao-people-scope [data-bibliography=published] h3{margin-bottom:22px}
+#zhao-people-scope .z-roster .z-person{border-top:1px solid var(--z-rule);padding-top:12px}
+@container(max-width:700px){#zhao-people-scope .z-course-schematic{grid-template-columns:1fr 1fr}#zhao-people-scope .z-course-output{grid-column:1/-1;border-left:0;border-top:1px solid var(--z-rule);padding:15px 0 0}#zhao-people-scope .z-course-output .z-diagram-label{margin-bottom:6px}#zhao-people-scope .z-course-output p br{display:none}#zhao-people-scope .z-course-output p br:after{content:' · '}#zhao-people-scope .z-assessment-schematic{gap:18px}#zhao-people-scope .z-evidence-center{padding:0 12px}#zhao-people-scope .z-science-schematic{gap:25px}}
+@container(max-width:520px){#zhao-people-scope .z-research-index{grid-template-columns:1fr;padding-bottom:25px}#zhao-people-scope .z-current-work{grid-template-columns:1fr;gap:20px}#zhao-people-scope .z-course-schematic,#zhao-people-scope .z-assessment-schematic,#zhao-people-scope .z-science-schematic{grid-template-columns:1fr;gap:23px}#zhao-people-scope .z-concept>div{padding:22px}#zhao-people-scope .z-course-output{grid-column:auto}#zhao-people-scope .z-diagram-label{margin-bottom:12px}#zhao-people-scope .z-course-curves svg{max-width:310px}#zhao-people-scope .z-evidence-center{border:0;border-top:1px solid var(--z-rule);border-bottom:1px solid var(--z-rule);padding:17px 0}#zhao-people-scope .z-science-checks{padding-left:15px}#zhao-people-scope .z-papers li{grid-template-columns:1fr;gap:0}#zhao-people-scope .z-full-bibliography{padding-left:19px}#zhao-people-scope .z-image-button img{width:100%}}
+@media(pointer:coarse){#zhao-people-scope .z-nav button,#zhao-people-scope .z-nav a{min-height:44px;display:inline-flex;align-items:center}#zhao-people-scope .z-links a,#zhao-people-scope .z-jump a{padding:8px 0}#zhao-people-scope .z-enlarge{min-height:44px}}
+
+#zhao-people-scope .z-achievement-list{list-style:none;margin:19px 0;padding:0;display:grid;gap:17px}
+#zhao-people-scope .z-achievement-list>li>a{font-weight:500}
+#zhao-people-scope .z-achievement-list p{font-size:13px;color:var(--z-muted);margin-top:4px}
+#zhao-people-scope .z-compact-list{list-style:none;margin:17px 0 20px;padding:0;display:grid;gap:12px}
+#zhao-people-scope .z-compact-list strong{display:block;font-weight:500;font-size:13px}
+#zhao-people-scope .z-compact-list span{display:block;font-size:12px;color:var(--z-muted)}
+#zhao-people-scope .z-home-contact{margin-top:24px!important;font-size:13px}
+#zhao-people-scope .z-with-photo{display:grid;grid-template-columns:76px 1fr;gap:17px;align-items:start}
+#zhao-people-scope .z-with-photo>img{width:76px;height:98px;object-fit:cover;border-radius:2px;display:block}
+#zhao-people-scope .z-with-photo>div{min-width:0}
+#zhao-people-scope .z-person>a,#zhao-people-scope .z-person>div>a{font-size:12px}
+#zhao-people-scope .z-alumni-history{display:grid;grid-template-columns:1fr 1fr;gap:22px 29px}
+#zhao-people-scope .z-alumni-history>div{border-top:1px solid var(--z-rule);padding-top:12px}
+#zhao-people-scope .z-alumni-history h3{font-size:14px}
+#zhao-people-scope .z-alumni-history p{font-size:12px;color:var(--z-muted);margin-top:4px}
+#zhao-people-scope .z-restored-heading{margin:26px 0 12px;font-weight:500;font-size:16px}
+#zhao-people-scope .z-contact-details{font-size:13px;line-height:1.8;margin-top:17px}
+@container(max-width:700px){#zhao-people-scope .z-with-photo{grid-template-columns:60px 1fr;gap:13px}#zhao-people-scope .z-with-photo>img{width:60px;height:78px}#zhao-people-scope .z-roster{column-gap:19px}}
+@container(max-width:600px){#zhao-people-scope .z-alumni-history{grid-template-columns:1fr}#zhao-people-scope .z-with-photo{grid-template-columns:76px 1fr;gap:17px}#zhao-people-scope .z-with-photo>img{width:76px;height:98px}}
+
+#zhao-people-scope [data-panel="home"] .z-bio{max-width:790px}
+#zhao-people-scope [data-panel="home"] .z-bio a{text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--z-link) 32%,transparent);text-decoration-thickness:1px}
+#zhao-people-scope [data-panel="home"] .z-bio a:hover{text-decoration-color:var(--z-link)}
+#zhao-people-scope .z-home-affiliations{max-width:790px;margin:28px 0 12px}
+#zhao-people-scope .z-home-affiliations h2{font-size:12px;letter-spacing:0;color:var(--z-muted);margin-bottom:8px}
+#zhao-people-scope .z-home-affiliations ul{display:flex;flex-wrap:wrap;gap:3px 0;list-style:none;margin:0;padding:0;font-size:12px;line-height:1.8}
+#zhao-people-scope .z-home-affiliations li{display:inline}
+#zhao-people-scope .z-home-affiliations li:not(:last-child)::after{content:'·';margin:0 10px;color:var(--z-muted)}
+#zhao-people-scope [data-panel="home"] .z-achievement-list{margin:0}
+#zhao-people-scope [data-panel="home"] .z-hero{padding-bottom:42px}
+@container(max-width:600px){#zhao-people-scope [data-panel="home"] .z-hero{padding-bottom:55px}#zhao-people-scope .z-home-affiliations{margin-top:24px}}
+@media(pointer:coarse){#zhao-people-scope .z-home-affiliations ul{display:block}#zhao-people-scope .z-home-affiliations li{display:block}#zhao-people-scope .z-home-affiliations li::after{display:none}#zhao-people-scope .z-home-affiliations a{display:inline-block;padding:9px 0}}
+
+#zhao-people-scope .z-atmosphere{bottom:auto;height:min(100%,660px)}
+
+#zhao-people-scope .z-hero-content > .z-links{font-size:16px;gap:8px 26px;line-height:1.7;margin-top:24px;font-weight:500}
+#zhao-people-scope .z-hero-content > .z-links a{display:inline-flex;align-items:center;min-height:36px}
+#zhao-people-scope .z-home-affiliations{margin-top:24px}
+#zhao-people-scope .z-home-affiliations h2{font-size:15px;font-weight:500;color:var(--z-ink);margin-bottom:10px}
+#zhao-people-scope .z-home-affiliations ul{font-size:15px;line-height:1.8;gap:6px 0}
+@container(max-width:600px){#zhao-people-scope .z-hero-content > .z-links{gap:4px 23px}#zhao-people-scope .z-hero-content > .z-links a{min-height:44px}#zhao-people-scope .z-home-affiliations ul{display:block}#zhao-people-scope .z-home-affiliations li{display:block}#zhao-people-scope .z-home-affiliations li::after{display:none}#zhao-people-scope .z-home-affiliations a{display:inline-flex;align-items:center;min-height:44px;padding:6px 0}}
+
+#zhao-people-scope .z-research-publications .z-page-header{align-items:baseline}
+#zhao-people-scope .z-research-publications .z-publication-archive{font-size:14px;white-space:nowrap}
+#zhao-people-scope .z-research-publications .z-research-index a{font-size:14px}
+#zhao-people-scope .z-research-publications .z-research h3{margin-bottom:23px;font-size:22px;line-height:1.4}
+#zhao-people-scope .z-research-publications .z-papers{gap:20px}
+#zhao-people-scope .z-research-publications .z-paper-title{font-size:15px;line-height:1.6}
+#zhao-people-scope .z-research-publications .z-paper-meta{font-size:13px;line-height:1.6;margin-top:4px}
+#zhao-people-scope .z-research-publications .z-year{font-size:12px;padding-top:3px}
+@container(max-width:600px){#zhao-people-scope .z-research-publications .z-page-header{display:block}#zhao-people-scope .z-research-publications .z-publication-archive{display:inline-flex;align-items:center;min-height:44px;margin-top:7px}#zhao-people-scope .z-research-publications .z-research h3{font-size:20px;margin-bottom:21px}#zhao-people-scope .z-research-publications .z-papers{gap:21px}#zhao-people-scope .z-research-publications .z-year{padding-top:0;margin-bottom:3px}}
+
+#zhao-people-scope .z-research-publications .z-page-intro{font-size:18px;line-height:1.6;color:var(--z-ink)}
+#zhao-people-scope .z-research-publications .z-publication-archive{font-size:16px}
+#zhao-people-scope .z-research-publications .z-research-index a{font-size:16px;line-height:1.65;padding:15px 0}
+#zhao-people-scope .z-research-publications .z-paper-title{font-size:16px;line-height:1.65}
+#zhao-people-scope .z-research-publications .z-paper-meta{font-size:14px;line-height:1.65;margin-top:5px}
+#zhao-people-scope .z-research-publications .z-year{font-size:14px;padding-top:2px}
+#zhao-people-scope .z-research-publications .z-papers{gap:23px}
+#zhao-people-scope .z-research-publications .z-research-end{font-size:16px}
+@container(max-width:600px){#zhao-people-scope .z-research-publications .z-page-intro{font-size:18px}#zhao-people-scope .z-research-publications .z-year{padding-top:0;margin-bottom:4px}#zhao-people-scope .z-research-publications .z-research-index a{padding:13px 0}}
+
+#zhao-people-scope .z-alumni-list{list-style:none;margin:0;padding:0;display:grid;gap:0}
+#zhao-people-scope .z-alumni-list>li{display:grid;grid-template-columns:155px minmax(0,1fr);gap:12px 22px;padding:19px 0;border-bottom:1px solid var(--z-rule)}
+#zhao-people-scope .z-alumni-list>li:first-child{padding-top:0}
+#zhao-people-scope .z-alumni-list>li:last-child{border-bottom:0;padding-bottom:0}
+#zhao-people-scope .z-alumni-list h3{font-size:16px;line-height:1.6;letter-spacing:0}
+#zhao-people-scope .z-alumni-list p{font-size:15px;line-height:1.7}
+#zhao-people-scope .z-alumni-list .z-alumni-role{font-size:14px;color:var(--z-muted);margin-top:4px}
+#zhao-people-scope .z-alumni-list .z-alumni-role:first-child{margin-top:0}
+@container(max-width:760px){#zhao-people-scope .z-alumni-list>li{grid-template-columns:1fr;gap:4px;padding:20px 0}}
+@media(pointer:coarse){#zhao-people-scope .z-alumni-list h3 a{display:inline-flex;align-items:center;min-height:44px}}
+
+
+#zhao-people-scope .z-office-location{font-size:15px;line-height:1.7;margin-top:12px;color:var(--z-ink)}
+
+#zhao-people-scope .z-news{padding:32px 0 36px}
+#zhao-people-scope .z-news h2{font-size:24px}
+#zhao-people-scope .z-news-content{min-width:0}
+#zhao-people-scope .z-news-list{list-style:none;margin:0;padding:0;display:grid;gap:0}
+#zhao-people-scope .z-news-list>li{display:grid;grid-template-columns:114px minmax(0,1fr);gap:20px;padding:18px 0;border-bottom:1px solid var(--z-rule)}
+#zhao-people-scope .z-news-list>li:first-child{padding-top:0}
+#zhao-people-scope .z-news-list time{font-size:14px;color:var(--z-muted);line-height:1.8;padding-top:1px}
+#zhao-people-scope .z-news-list p{font-size:16px;line-height:1.75}
+#zhao-people-scope .z-news-list a{font-weight:500;text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--z-link) 35%,transparent)}
+#zhao-people-scope .z-news-list a:hover{text-decoration-color:var(--z-link)}
+@container(max-width:760px){#zhao-people-scope .z-news{grid-template-columns:1fr;gap:16px}#zhao-people-scope .z-news-list>li{grid-template-columns:106px minmax(0,1fr);gap:16px}}
+@container(max-width:520px){#zhao-people-scope .z-news-list>li{grid-template-columns:1fr;gap:5px;padding:18px 0}#zhao-people-scope .z-news-list p{font-size:15px}#zhao-people-scope .z-news-list time{font-size:14px}}
+
+#zhao-people-scope{color-scheme:light dark;width:100%;min-width:0}
