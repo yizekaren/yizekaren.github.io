@@ -109,6 +109,10 @@ html{scroll-behavior:auto}body{margin:0}button,a{-webkit-tap-highlight-color:tra
 #zhao-people-scope .z-software-row p{font-size:14px;color:var(--z-muted)}
 #zhao-people-scope .z-software-row small{display:block;font-size:11px;color:var(--z-muted);margin-top:4px}
 #zhao-people-scope .z-software-row .z-links{margin-top:10px}
+#zhao-people-scope .z-software-section{scroll-margin-top:24px}
+#zhao-people-scope .z-software-section>h2{margin:20px 0 14px;font-size:21px}
+#zhao-people-scope .z-software-section+.z-software-section{margin-top:34px}
+#zhao-people-scope .z-software-section .z-software-row:last-child{padding-bottom:0}
 #zhao-people-scope .z-invitation{padding:25px 0 30px;border-top:1px solid var(--z-rule);display:grid;grid-template-columns:175px 1fr;gap:28px}
 #zhao-people-scope .z-invitation p{font-size:14px;max-width:610px}
 #zhao-people-scope .z-invitation p+p{margin-top:12px;color:var(--z-muted)}
