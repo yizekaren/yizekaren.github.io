@@ -278,3 +278,6 @@ html{scroll-behavior:auto}body{margin:0}button,a{-webkit-tap-highlight-color:tra
 @container(max-width:520px){#zhao-people-scope .z-news-list>li{grid-template-columns:1fr;gap:5px;padding:18px 0}#zhao-people-scope .z-news-list p{font-size:15px}#zhao-people-scope .z-news-list time{font-size:14px}}
 
 #zhao-people-scope{color-scheme:light dark;width:100%;min-width:0}
+
+#zhao-people-scope [data-panel="research"] .z-research h2{font-size:22px;letter-spacing:-.6px}
+#zhao-people-scope .z-theme-summary{max-width:670px;margin:8px 0 16px;color:var(--z-muted)}
